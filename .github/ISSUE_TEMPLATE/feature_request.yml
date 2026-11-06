@@ -1,0 +1,34 @@
+name: Feature request
+description: Suggest a document tool, format or workflow
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+    validations:
+      required: true
+  - type: input
+    id: input_formats
+    attributes:
+      label: Input formats
+      placeholder: "PDF, DOCX, ODT..."
+  - type: input
+    id: output_formats
+    attributes:
+      label: Expected output formats
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Describe the ideal workflow
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Current tools or workarounds
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Privacy, fidelity or file-size requirements
