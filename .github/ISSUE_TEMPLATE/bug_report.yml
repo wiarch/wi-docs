@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a reproducible problem in WI Docs
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not attach private or sensitive documents. Use sanitized samples."
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the unexpected behavior.
+    validations:
+      required: true
+  - type: input
+    id: operation
+    attributes:
+      label: Tool or operation
+      placeholder: "For example: DOCX to PDF"
+    validations:
+      required: true
+  - type: input
+    id: formats
+    attributes:
+      label: Input and output formats
+      placeholder: "DOCX → PDF"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+  - type: input
+    id: environment
+    attributes:
+      label: Browser and operating system
