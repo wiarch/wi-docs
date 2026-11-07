@@ -161,4 +161,8 @@ See [Security](docs/SECURITY.md).
 
 ## License
 
-The root package manifest declares MIT, but the repository should include and verify an explicit license file before the project is redistributed. Refer to the repository owner for the authoritative licensing decision.
+Released under the [MIT License](LICENSE).
+
+---
+
+Part of the **[WI Arch](https://github.com/wiarch)** ecosystem.
